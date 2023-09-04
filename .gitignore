@@ -5,19 +5,62 @@
 /.pnp
 .pnp.js
 
-# testing
-/coverage
+# Visual Studio Code
+.vscode/
 
-# production
-/build
+# JetBrains
+.idea/
 
-# misc
+# SublimeText
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+
+# OSX
 .DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+.AppleDouble
+.LSOverride
 
+# Basics
+__pycache__
+*.pid
+*.db
+.env
+.venv
+venv
+
+# NPM / Yarn
+node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+package-lock.json
+
+# Celery
+celerybeat-schedule
+backend/celerybeat.pid
+
+# Logs
+*.log
+pip-log.txt
+
+# Unit test / coverage reports
+.coverage
+.tox
+builds
+htmlcov
+test-reports
+
+# Translations
+*.mo
+*.pot
+
+# Media dir and collected statics
+backend/media/*
+!backend/media/test-data/*
+backend/staticfiles
+
+# SCSS
+.sass-cache/
+/startbootstrap-clean-blog-gh-pages/
